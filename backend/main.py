@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes.health import router as health_router
 from app.api.routes.products import router as products_router
+from app.api.routes.vendors import router as vendors_router
+from app.api.routes.warehouses import router as warehouses_router
 
 
 app = FastAPI(title="Supply Chain API", version="1.0.0")
@@ -24,3 +26,5 @@ def root():
 
 app.include_router(health_router, prefix="/api")
 app.include_router(products_router, prefix="/api")
+app.include_router(vendors_router, prefix="/api")
+app.include_router(warehouses_router, prefix="/api")
