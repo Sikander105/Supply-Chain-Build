@@ -48,3 +48,6 @@ htmlcov/
 
 # DB
 *.db
+*.sql
+*.dump
+*.backup
