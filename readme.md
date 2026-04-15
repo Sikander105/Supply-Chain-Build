@@ -1,5 +1,3 @@
-Worked for 1m 22s
-
 # Supply Chain Build
  
 Full-stack supply chain and inventory management app with:
