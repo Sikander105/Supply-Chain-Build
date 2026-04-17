@@ -22,6 +22,13 @@ Each authenticated user operates within their own isolated dataset.
 Main site: https://www.supplyos.app/
 API Docs: https://www.supplyos.app/docs#/
 
+Demo login:
+
+Emai: demo@supplychainapp.com  Password: DemoPass123!
+
+Or create your own! Password must be at minimum 6 characters
+
+
 The deployed environment provides full access to the application UI and API without requiring local setup.
 
 ## Tech Stack
